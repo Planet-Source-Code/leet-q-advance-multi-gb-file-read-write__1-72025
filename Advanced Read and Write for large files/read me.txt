@@ -1,0 +1,12 @@
+I made this little project to find a way to read and/or write files that
+are multi gigs in size. I tried to use the the "Open.. for.. access.."
+that VB6 has and it errors out due to an overflow. You can't even use
+the eof() and lof() function VB6 has because they will just error and
+overflow. Try it yourself. Try using LOF() to get the length of a file
+that is 8 GB's in size, it just will not do it. So I hope this helps
+some people out. It's just an example of a use for this. I'm sure those
+whose eye this post catches will find many uses for it. Happy Coding.
+
+
+By: QQ
+    
